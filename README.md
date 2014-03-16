@@ -12,9 +12,7 @@ The shield is mainly a break-out board. There are only 3 chips on the board:
 | chip | purpose | link |
 |-------| ------- | -----|
 |MPU-9150|Accelerometer, gyroscope, magnetometer | http://www.invensense.com/mems/gyro/nineaxis.html |
-|--------|---------|------|
 |TLV70033DDCR | 3V regulator | http://www.ti.com/product/tlv70033 |
-|--------|----------|------|
 |PCA9306DP1-G| I2C level translator| http://www.nxp.com/products/interface_and_connectivity/i2c/i2c_voltage_level_translators/PCA9306DP1.html|
 
 ## Power
@@ -28,11 +26,8 @@ Be careful, only ESC 1 has the ground and 5V pins connected. This is made to avo
 | ESC | pin |
 |-----|-----|
 |ESC1 | x   |
-|-----|-----|
 |ESC2 | x   |
-|-----|-----|
 |ESC3 |     |
-|-----|-----|
 |ESC4 |     |
 
 ### Transmitter connections
