@@ -25,14 +25,13 @@ I recommend not to draw current from the 3.3V regulator of the controller, becau
 ## Used pins
 ### ESC connections
 Be careful, only ESC 1 has the ground and 5V pins connected. This is made to avoid ground loops.
-<table>
-| ESC  | pin |
-|------|-----|
-| ESC1 | x   |
-| ESC2 | x   |
-| ESC3 |     |
-| ESC4 |     |
-</table>
+
+| ESC  | pin   |
+|------|-------|
+| ESC1 | x     |
+| ESC2 | x     |
+| ESC3 | empty |
+| ESC4 | empty |
 
 ### Transmitter connections
 Be careful, only THR has the ground and 5V pins connected. This is made to avoid ground loops. If your transmitter does not have a common ground for its channels, you will want to bridge the whole ground line.
