@@ -37,6 +37,7 @@ Be careful, only ESC 1 has the ground and 5V pins connected. This is made to avo
 Be careful, only THR has the ground and 5V pins connected. This is made to avoid ground loops. If your transmitter does not have a common ground for its channels, you will want to bridge the whole ground line.
 
 | Command | pin |
+|---------|-----|
 | THR     |     |
 | ROLL    |     |
 | YAW     |     |
