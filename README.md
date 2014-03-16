@@ -26,12 +26,12 @@ I recommend not to draw current from the 3.3V regulator of the controller, becau
 ### ESC connections
 Be careful, only ESC 1 has the ground and 5V pins connected. This is made to avoid ground loops.
 <table>
-| ESC | pin |
-|-----|-----|
-|ESC1 | x   |
-|ESC2 | x   |
-|ESC3 |     |
-|ESC4 |     |
+| ESC  | pin |
+|------|-----|
+| ESC1 | x   |
+| ESC2 | x   |
+| ESC3 |     |
+| ESC4 |     |
 </table>
 
 ### Transmitter connections
