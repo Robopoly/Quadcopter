@@ -1,0 +1,12 @@
+Field=Comment~String~Comment~100|Field=Description~String~Description~100|Field=Designator~String~Designator~100|Field=Footprint~String~Footprint~100|Field=LibRef~String~LibRef~100|Field=Quantity~Integer~Quantity~100|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~shield.PrjPCB|ReportField=ProjectFullPath~C:\Users\patrick\Desktop\Dropbox\Aeropoly shield\shield.PrjPCB|ReportField=Title~Bill of Materials For Project [shield.PrjPCB] (No PCB Document Selected)|ReportField=TotalQuantity~29|ReportField=ReportTime~20:31:29|ReportField=ReportDate~15/11/2013|ReportField=ReportDateTime~15/11/2013 20:31:29|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=Address1~|ReportField=Address2~|ReportField=Address3~|ReportField=Address4~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=CurrentDate~15/11/2013|ReportField=CurrentTime~20:31:10|ReportField=Date~|ReportField=DocumentFullPathAndName~C:\Users\patrick\Desktop\Dropbox\Aeropoly shield\Sheet1.SchDoc|ReportField=DocumentName~Sheet1.SchDoc|ReportField=DocumentNumber~|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=ModifiedDate~15/11/2013|ReportField=Organization~|ReportField=ProjectName~shield.PrjPCB|ReportField=Revision~|ReportField=Rule~|ReportField=SheetNumber~|ReportField=SheetTotal~|ReportField=Time~|ReportField=Title~|ReportField=DataSourceFileName~shield.PrjPCB|ReportField=DataSourceFullPath~C:\Users\patrick\Desktop\Dropbox\Aeropoly shield\shield.PrjPCB
+Header 3|Header, 3-Pin|AUX1, ESC1, ESC2, ESC3, ESC4, PITCH, ROLL, THR, YAW|HDR1X3|Header 3|9
+C0805|Ceramic Chip Capacitor - Standard|C1, C2, C3, C4, C5|MELF-R2012-0805|C0805|5
+C0805|Ceramic Chip Capacitor - Standard|C6|0805|C0805|1
+|Ceramic Chip Capacitor - Standard|C7, C8|MELF-R2012-0805|C0805|2
+Header 2|Header, 2-Pin|I2C 3V3, I2C 5V|HDR1X2|Header 2|2
+Header 3X2|Header, 3-Pin, Dual row|ISP|HDR2X3|Header 3X2|1
+9-axis|9-axis sensor (gyroscope, accelerometre, magnétomètre)|MPU-9150|PCBComponent_1|MPU-9150|1
+Header 2|Header, 2-Pin|P?|TLV70033DDCR|TLV700xx|1
+|I²C shifting voltage|PCA9306|TSOP65P490X110-8N|Component_1|1
+Res1|Resistor|R1, R2, R3, R4, R5|MELF-R2012-0805|Res1|5
+Leonardo pins||shield|Leonardo pins|Leonardo pins|1

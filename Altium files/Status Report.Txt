@@ -1,0 +1,15 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 14:55:58 On 24/11/2013
+
+Output: Simple BOM
+Type  : SimpleBOM
+From  : Variant [[No Variations]] of Schematic Document [Sheet1.SchDoc]
+   Generated File[Sheet1.BOM]
+   Generated File[Sheet1.CSV]
+
+
+Files Generated   : 2
+Documents Printed : 0
+
+Finished Output Generation At 14:56:00 On 24/11/2013
