@@ -9,11 +9,13 @@ You can find the Altium and gerber files, as well as the datasheets on this repo
 
 ## Components
 The shield is mainly a break-out board. There are only 3 chips on the board:
+<table>
 | chip | purpose | link |
 |-------| ------- | -----|
 |MPU-9150|Accelerometer, gyroscope, magnetometer | http://www.invensense.com/mems/gyro/nineaxis.html |
 |TLV70033DDCR | 3V regulator | http://www.ti.com/product/tlv70033 |
 |PCA9306DP1-G| I2C level translator| http://www.nxp.com/products/interface_and_connectivity/i2c/i2c_voltage_level_translators/PCA9306DP1.html|
+</table>
 
 ## Power
 You can power the controller through the shield by connecting an 5V BEC to ESC1 pin.
@@ -23,12 +25,14 @@ I recommend not to draw current from the 3.3V regulator of the controller, becau
 ## Used pins
 ### ESC connections
 Be careful, only ESC 1 has the ground and 5V pins connected. This is made to avoid ground loops.
+<table>
 | ESC | pin |
 |-----|-----|
 |ESC1 | x   |
 |ESC2 | x   |
 |ESC3 |     |
 |ESC4 |     |
+</table>
 
 ### Transmitter connections
 Be careful, only THR has the ground and 5V pins connected. This is made to avoid ground loops. If your transmitter does not have a common ground for its channels, you will want to bridge the whole ground line.
