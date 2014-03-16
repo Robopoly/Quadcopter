@@ -4,7 +4,7 @@
 This shield has firstly been designed by Robopoly for Aeropoly. It is now available at Robopoly.
 It is cmade for the [PRismino][prismino], and thus compatible with a Leonardo and most Arduino boards.
 It is basically a copy of the nanowii board, except that it is now set as a shield for a Leonardo, rather than a standalone board.
-Therefore, you can use the multiwii code, but you will have to make your own configuration.
+Therefore, you can use the [Multiwii][multiwii] code, but you will have to make your own configuration.
 You can find the Altium and gerber files, as well as the datasheets on this repo.
 
 ## Components
@@ -37,15 +37,10 @@ Be careful, only ESC 1 has the ground and 5V pins connected. This is made to avo
 Be careful, only THR has the ground and 5V pins connected. This is made to avoid ground loops. If your transmitter does not have a common ground for its channels, you will want to bridge the whole ground line.
 
 | Command | pin |
-|---------|-----|
 | THR     |     |
-|---------|-----|
 | ROLL    |     |
-|---------|-----|
 | YAW     |     |
-|---------|-----|
 | PITCH   |     |
-|---------|-----|
 | AUX     |     |
 
 ## Thanks
@@ -56,3 +51,4 @@ I'd like to thank the various people that have helped developping this board. Ma
 [atmega32u4]: http://www.atmel.ch/Images/doc7766.pdf "ATmega16U4/32U4 datasheet"
 [PCA9306DP1-G]: http://www.nxp.com/products/interface_and_connectivity/i2c/i2c_voltage_level_translators/PCA9306DP1.html "PCA9306DP1-G"
 [prismino]: https://github.com/Robopoly/PRismino "PRismino"
+[multiwii]: http://www.multiwii.com/software "Multiwii"
