@@ -10,6 +10,7 @@ You can find the Altium and gerber files, as well as the datasheets on this repo
 ## Components
 The shield is mainly a break-out board. There are only 3 chips on the board:
 The MPU-9150 has the same register map as it's brother the MPU-6050 which is used in a Nanowii board. Therefore you can use it as a MPU-6050 if you don't want the magnetometer.
+
 | chip         | purpose                                | link                         |
 |--------------|----------------------------------------|------------------------------|
 | MPU-9150     | Accelerometer, gyroscope, magnetometer | [MPU-9150][MPU-9150]         |
@@ -52,7 +53,7 @@ The data pin is at the outer side of the board (closest to the edge).
 | ROLL    | MOSI |
 | YAW     | SCK  |
 | PITCH   | MISO |
-| AUX     |  8   |
+| AUX1    |  8   |
 
 ## Thanks
 I'd like to thank the various people that have helped developping this board. Mainly the directors of Robopoly, and xxxx, the creator of the Nanowii board.
