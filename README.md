@@ -1,5 +1,8 @@
 # Quadcopter shield
 
+## TODO
+There might be a problem at this moment with the axis on the PCB. I'm not sure about it.
+
 ## Introduction
 This shield has firstly been designed by Robopoly for Aeropoly. It is now available at Robopoly.
 It is cmade for the [PRismino][prismino], and thus compatible with a Leonardo and most Arduino boards.
@@ -59,7 +62,7 @@ The data pin is at the outer side of the board (closest to the edge).
 | AUX1    |  8   |
 
 ## Thanks
-I'd like to thank the various people that have helped developping this board. Mainly the directors of Robopoly, and xxxx, the creator of the Nanowii board.
+I'd like to thank the various people that have helped developping this board. Mainly the directors of Robopoly, and Felix (aka ronco on multiwii forum), the creator of the Nanowii board.
 
 [MPU-9150]: http://www.invensense.com/mems/gyro/nineaxis.html "MPU-9150"
 [TLV70033DDCR]: http://www.ti.com/product/tlv70033 "TLV70033DDCR"
