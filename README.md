@@ -32,6 +32,9 @@ I recommend not to draw current from the 3.3V regulator of the controller, becau
 In v1, you must be careful about how much current you are drawing on the 3.3V pin of the Arduino. 
 
 ## Used pins
+### Jumper
+Either J0 or J1 has to be bridged. If you bridge both, you'll short your power. Never bridge both. These are used to set the address of the MPU-9150.
+
 ### ESC connections
 Be careful, only ESC 1 has the ground and 5V pins connected. This is made to avoid ground loops.
 The data pin is at the outer side of the board (closest to the pins).
