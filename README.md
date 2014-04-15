@@ -1,7 +1,7 @@
 # Quadcopter shield
 
 ## TODO
-There might be a problem at this moment with the axis on the PCB. I'm not sure about it.
+There might be a problem at this moment with the axis on the PCB and the x,y axis used by the accelerometer. Will be checked soon
 
 ## Introduction
 This shield has firstly been designed by Robopoly for Aeropoly. It is now available at Robopoly.
