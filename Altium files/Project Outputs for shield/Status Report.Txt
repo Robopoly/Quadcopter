@@ -1,12 +1,10 @@
-Output: NC Drill Files
-Type  : NC Drill
-From  : PCB Document [Prismino_Copter.PcbDoc]
-   Generated File[Prismino_Copter.TXT]
-   Generated File[Prismino_Copter.LDP]
-   Generated File[Prismino_Copter.DRR]
+Output: Bill of Materials
+Type  : BOM
+From  : Variant [[No Variations]] of Schematic Document [Prismino_Copter.SchDoc]
+   Generated File[Bill of Materials-Prismino_Copter.xls]
 
 
-Files Generated   : 3
+Files Generated   : 1
 Documents Printed : 0
 
-Finished Output Generation At 23:17:19 On 06/12/2013
+Finished Output Generation At 19:00:19 On 23/04/2014

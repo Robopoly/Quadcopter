@@ -1,8 +1,5 @@
 # Quadcopter shield
 
-## TODO
-There might be a problem at this moment with the axis on the PCB and the x,y axis used by the accelerometer. Will be checked soon
-
 ## Introduction
 This shield has firstly been designed by Robopoly for Aeropoly. It is now available at Robopoly.
 It is cmade for the [PRismino][prismino], and thus compatible with a Leonardo and most Arduino boards.
@@ -31,8 +28,7 @@ The MPU-9150 has the same register map as it's brother the MPU-6050 which is use
 ## Power
 You can power the controller through the shield by connecting an 5V BEC to ESC1 pin.
 The 3.3V available with the micromatch or double pins are not the ones from the Arduino. Meaning you won't fry your controller if you use too much current.
-I recommend not to draw current from the 3.3V regulator of the controller, because that one powers the MPU-9150 in v0.1 of the shield.
-In v1, you must be careful about how much current you are drawing on the 3.3V pin of the Arduino. 
+However, you should stick well within the limits as it powers the MPU-9150 and the I2C level shifter.
 
 ## Used pins
 ### Jumper
@@ -40,7 +36,7 @@ Either J0 or J1 has to be bridged. If you bridge both, you'll short your power. 
 
 ### ESC connections
 Be careful, only ESC 1 has the ground and 5V pins connected. This is made to avoid ground loops.
-The data pin is at the outer side of the board (closest to the pins).
+The data pin is at the outer side of the board (closest to the pins). The ground pin is the square one.
 
 | ESC  | pin   |
 |------|-------|
@@ -50,8 +46,8 @@ The data pin is at the outer side of the board (closest to the pins).
 | ESC4 |   6   |
 
 ### Transmitter connections
-Be careful, only THR has the ground and 5V pins connected. This is made to avoid ground loops. If your transmitter does not have a common ground for its channels, you will want to bridge the whole ground line.
-The data pin is at the outer side of the board (closest to the edge).
+Be careful, only THR has the ground and 5V pins connected. This is made to avoid ground loops. If your transmitter does not have a common ground for its channels, you will have to bridge the whole ground line, or mod your receiver.
+The data pin is at the outer side of the board (closest to the edge). The ground pin is the square one.
 
 | Command | pin  |
 |---------|------|
@@ -61,8 +57,12 @@ The data pin is at the outer side of the board (closest to the edge).
 | PITCH   | MISO |
 | AUX1    |  8   |
 
+## Various
+### MPU-9150
+Be careful that the axis for the magnetometer are not the same as for the accelerometer and the gyroscope. The ones on the board are those of the accelerometer.
+
 ## Thanks
-I'd like to thank the various people that have helped developping this board. Mainly the directors of Robopoly, and Felix (aka ronco on multiwii forum), the creator of the Nanowii board.
+I'd like to thank the various people that have helped developping this board and namely Felix (aka ronco on multiwii forum), the creator of the Nanowii board.
 
 [MPU-9150]: http://www.invensense.com/mems/gyro/nineaxis.html "MPU-9150"
 [TLV70033DDCR]: http://www.ti.com/product/tlv70033 "TLV70033DDCR"

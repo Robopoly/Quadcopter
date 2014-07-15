@@ -1,76 +1,53 @@
 Protel Design System Design Rule Check
-PCB File : C:\Users\patrick\Desktop\Dropbox\Aeropoly shield\Prismino_Copter.PcbDoc
-Date     : 18/12/2013
-Time     : 21:57:37
+PCB File : C:\Users\Patrick\Dropbox\GitHub\Quadcopter\Altium files\Prismino_Copter.PcbDoc
+Date     : 01/05/2014
+Time     : 17:44:41
 
-Processing Rule : Net Antennae (Tolerance=0mm) (All)
-Rule Violations :0
-
-Processing Rule : Silk to Silk (Clearance=0.1mm) (All),(All)
-Rule Violations :0
-
-Processing Rule : Silk To Solder Mask (Clearance=0.1mm) (IsPad),(All)
-Rule Violations :0
-
-Processing Rule : Minimum Solder Mask Sliver (Gap=0.15mm) (All),(All)
-Rule Violations :0
-
-Processing Rule : Hole To Hole Clearance (Gap=0.254mm) (All),(All)
-Rule Violations :0
-
-Processing Rule : Hole Size Constraint (Min=0.3mm) (Max=2.54mm) (All)
-Rule Violations :0
-
-Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
-Rule Violations :0
-
-Processing Rule : Width Constraint (Min=0.24mm) (Max=0.26mm) (Preferred=0.25mm) (All)
-Rule Violations :0
-
-Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.5mm) (Conductor Width=0.3mm) (Air Gap=0.3mm) (Entries=4) (All)
-Rule Violations :0
-
-Processing Rule : Clearance Constraint (Gap=0.155mm) (All),(All)
-   Violation between Pad PCA9306-2(-11.525mm,3.8mm)  Bottom Layer and 
-                     Pad PCA9306-1(-12.175mm,3.8mm)  Bottom Layer
-   Violation between Pad PCA9306-5(-10.225mm,-0.45mm)  Bottom Layer and 
-                     Pad PCA9306-6(-10.875mm,-0.45mm)  Bottom Layer
-   Violation between Pad PCA9306-7(-11.525mm,-0.45mm)  Bottom Layer and 
-                     Pad PCA9306-6(-10.875mm,-0.45mm)  Bottom Layer
-   Violation between Pad PCA9306-3(-10.875mm,3.8mm)  Bottom Layer and 
-                     Pad PCA9306-2(-11.525mm,3.8mm)  Bottom Layer
-   Violation between Pad PCA9306-4(-10.225mm,3.8mm)  Bottom Layer and 
-                     Pad PCA9306-3(-10.875mm,3.8mm)  Bottom Layer
-Rule Violations :5
-
-Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
-   Violation between Polygon Region (6 hole(s)) Bottom Layer and 
-                     Pad PCA9306-7(-11.525mm,-0.45mm)  Bottom Layer
-   Violation between Polygon Region (58 hole(s)) Bottom Layer and 
-                     Pad PCA9306-2(-11.525mm,3.8mm)  Bottom Layer
-Rule Violations :2
-
-Processing Rule : Clearance Constraint (Gap=0.254mm) (InNamedPolygon('GND plane')),(All)
-   Violation between Polygon Region (6 hole(s)) Bottom Layer and 
-                     Pad PCA9306-6(-10.875mm,-0.45mm)  Bottom Layer
-   Violation between Polygon Region (6 hole(s)) Bottom Layer and 
-                     Pad PCA9306-8(-12.175mm,-0.45mm)  Bottom Layer
-   Violation between Polygon Region (6 hole(s)) Bottom Layer and 
-                     Pad PCA9306-7(-11.525mm,-0.45mm)  Bottom Layer
-   Violation between Polygon Region (58 hole(s)) Bottom Layer and 
-                     Pad PCA9306-5(-10.225mm,-0.45mm)  Bottom Layer
-   Violation between Polygon Region (58 hole(s)) Bottom Layer and 
-                     Pad PCA9306-2(-11.525mm,3.8mm)  Bottom Layer
-   Violation between Polygon Region (58 hole(s)) Bottom Layer and 
-                     Pad PCA9306-3(-10.875mm,3.8mm)  Bottom Layer
-Rule Violations :6
-
-Processing Rule : Un-Routed Net Constraint ( (InNet('No Net')) )
+Processing Rule : Clearance Constraint (Gap=0.254mm) (InNamedPolygon('GND PLANE TOP')),(All)
 Rule Violations :0
 
 Processing Rule : Width Constraint (Min=0.01mm) (Max=0.254mm) (Preferred=0.254mm) (InNet('No Net'))
 Rule Violations :0
 
+Processing Rule : Un-Routed Net Constraint ( (InNet('No Net')) )
+Rule Violations :0
 
-Violations Detected : 13
-Time Elapsed        : 00:00:01
+Processing Rule : Clearance Constraint (Gap=0.254mm) (InNamedPolygon('GND plane')),(All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.155mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.5mm) (Conductor Width=0.3mm) (Air Gap=0.3mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.24mm) (Max=0.26mm) (Preferred=0.25mm) (All)
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.3mm) (Max=2.54mm) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=0.254mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0.15mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=0.1mm) (IsPad),(All)
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=0.1mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mm) (All)
+Rule Violations :0
+
+
+Violations Detected : 0
+Time Elapsed        : 00:00:00
