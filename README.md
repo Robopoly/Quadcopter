@@ -8,22 +8,24 @@ Therefore, you can use the [Multiwii][multiwii] code, but you will have to make 
 You can find the Altium and gerber files, as well as the datasheets on this repo.
 
 ## Components
+
+NOT VALID FOR NEW VERSION. CHECK DOC PDF
 The shield is mainly a break-out board. There are only 3 chips on the board:
 The MPU-9150 has the same register map as it's brother the MPU-6050 which is used in a Nanowii board. Therefore you can use it as a MPU-6050 if you don't want the magnetometer.
-
+NOT VALID FOR NEW VERSION. CHECK DOC PDF
 | chip         | purpose                                | link                         |
 |--------------|----------------------------------------|------------------------------|
 | MPU-9150     | Accelerometer, gyroscope, magnetometer | [MPU-9150][MPU-9150]         |
 | TLV70033DDCR | 3V regulator                           | [TLV70033DDCR][TLV70033DDCR] |
 | PCA9306DP1-G | I2C level translator                   | [PCA9306DP1-G][PCA9306DP1-G] |
-
+NOT VALID FOR NEW VERSION. CHECK DOC PDF
 | identifier   |   value   |
 |--------------|-----------|
 | R1 -> R5     | 10kOhm    |
 | C1,2,5,6,7   | 0.1uF     |
 |     C4       |  10nF     |
 |     C3       |   2.2nF   |
-
+NOT VALID FOR NEW VERSION. CHECK DOC PDF
 
 ## Power
 You can power the controller through the shield by connecting an 5V BEC to ESC1 pin.
