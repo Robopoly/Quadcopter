@@ -1,8 +1,0 @@
-DRC Rules Export File for PCB: C:\Users\Patrick\Dropbox\GitHub\Quadcopter\Altium files\Prismino_Copter.PcbDoc
-RuleKind=Clearance|RuleName=Clearance_1|Scope=Board|Minimum=10.00
-RuleKind=Width|RuleName=Width_1|Scope=Board|Minimum=0.39
-RuleKind=Clearance|RuleName=GND_plane|Scope=Board|Minimum=10.00
-RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
-RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=6.10
-RuleKind=Width|RuleName=Width|Scope=Board|Minimum=9.45
-RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=3.94
