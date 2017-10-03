@@ -22,6 +22,7 @@ The shield has an MPU-9250, a barometer and an attiny4313 that is responsible fo
 
 
 Check these against the datasheets. I might have messed up.
+
 | identifier   |   value   |
 |--------------|-----------|
 | R1 -> R5     | 10kOhm    |
