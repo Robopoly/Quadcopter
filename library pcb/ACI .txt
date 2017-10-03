@@ -1,0 +1,3 @@
+board: 230*320
+track width > 150 um
+clearance > 150 um
