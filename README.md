@@ -13,10 +13,10 @@ The shield has an MPU-9250, a barometer and an attiny4313 that is responsible fo
 
 | chip         | purpose                                | link                         |   Status            |
 |--------------|----------------------------------------|------------------------------|---------------------|
-| MPU-9250     | Accelerometer, gyroscope, magnetometer | [MPU-9150][MPU-9150]         | Should work         |
+| MPU-9250     | Accelerometer, gyroscope, magnetometer | [MPU-9250][MPU-9250]         | Should work         |
 | TLV70033DDCR | 3V regulator                           | [TLV70033DDCR][TLV70033DDCR] | Working             |
 | PCA9306DP1-G | I2C level translator                   | [PCA9306DP1-G][PCA9306DP1-G] | Working             |
-| MS5611       | Barometer                              | [MS5611][MS5611]             | Should work         |
+| MS5611       | Barometer                              | [MS5611] [MS5611]             | Should work         |
 | attiny4313   | Handles optical flow sensor and GPS    | [attiny4313][attiny4313]     | Not tested          |
 | hc-05        | Bluetooth                              | NA                           | Not working         |
 
@@ -61,8 +61,6 @@ The data pin is at the outer side of the board (closest to the edge). The ground
 | PITCH   | MISO |
 | AUX1    |  8   |
 
-## Various
-
 ## Thanks
 I'd like to thank the various people that have helped developping this board and namely Felix (aka ronco on multiwii forum), the creator of the Nanowii board.
 
@@ -71,6 +69,7 @@ I'd like to thank the various people that have helped developping this board and
 
 
 Previous version (V1, as V2 has never been tested) uses only MPU-9150. The MPU-9150 has the same register map as it's brother the MPU-6050 which is used in a Nanowii board. Therefore you can use it as a MPU-6050 if you don't want the magnetometer. This might not be valid for MPU-9250.
+
 | identifier   |   value   |
 |--------------|-----------|
 | R1 -> R5     | 10kOhm    |
@@ -109,6 +108,7 @@ The data pin is at the outer side of the board (closest to the edge). The ground
 | AUX1    |  8   |
 
 
+[MS5611]: http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=MS5611-01BA03&DocType=Data+Sheet&DocLang=English "MS5611"
 [MPU-9250]: http://www.invensense.com/mems/gyro/nineaxis.html "MPU-9250"
 [MPU-9150]: http://www.invensense.com/mems/gyro/nineaxis.html "MPU-9150"
 [TLV70033DDCR]: http://www.ti.com/product/tlv70033 "TLV70033DDCR"
