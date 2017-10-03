@@ -9,6 +9,7 @@ You can find the Altium and gerber files, as well as the datasheets on this repo
 
 ## Components
 The shield has an MPU-9250, a barometer and an attiny4313 that is responsible for the GPS, sonar and optic flow sensor.
+The MPU-9250 does not have the same register map as the MPU-9150 previously used if I'm not mistaken. Check that before use.
 
 
 | chip         | purpose                                | link                         |   Status            |
@@ -69,7 +70,7 @@ I'd like to thank the various people that have helped developping this board and
 ## Previous version
 
 
-Previous version (V1, as V2 has never been tested) uses only MPU-9150. The MPU-9150 has the same register map as it's brother the MPU-6050 which is used in a Nanowii board. Therefore you can use it as a MPU-6050 if you don't want the magnetometer. This might not be valid for MPU-9250.
+Previous version (V1, as V2 has never been tested) uses only MPU-9150. The MPU-9150 has the same register map as its brother the MPU-6050 which is used in a Nanowii board. Therefore you can use it as a MPU-6050 if you don't want the magnetometer. This might not be valid for MPU-9250.
 
 | identifier   |   value   |
 |--------------|-----------|
